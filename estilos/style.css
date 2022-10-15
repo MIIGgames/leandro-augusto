@@ -1,0 +1,152 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+/* Banner */
+#banner {
+    background-image: url(../img/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    height: 45rem;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+#logo {
+  font-size: 2.5rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+#logo span {
+    color: blue;
+}
+
+#header {
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 1.0rem;
+  margin-right: 5rem;
+}
+
+#menu a {
+    color: white;
+    font-size: 1.1rem;
+    display: block;
+    padding: 0.5rem;
+}
+
+#menu a:hover {
+    transition: .1s cubic-bezier(transparent);
+    border-bottom: 2px solid white;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+/* ====================
+      section home
+======================*/
+
+section#home {
+    background: white;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 10px;
+}
+
+.container article h2 {
+    border-bottom: 4px solid black;
+    width: 200px;
+    font-size: 2.4rem;
+    color: rgb(69, 68, 68);
+}
+
+.container article {
+    width: 600px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    justify-items: left;
+    margin-top: 2rem;
+}
+
+section#home #img {
+    width: 35rem;
+    height: 35rem;
+}
+
+/* ====================
+    section projetos
+======================*/
+
+section#projetos {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+}
+
+section#projetos .projetos {
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.projetos h2 {
+    margin-top: 7rem;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.845);
+}
+
+#linha {
+    background:white;
+    width: 100px;
+    height: 7px;
+}
+
+.container-2 {
+    display: flex;
+    gap: 5rem;
+    padding: 50px 10px;
+}
+
+.container-2 .bloco1 .bloco2{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.bloco1 article, .bloco2 article {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: white;
+    font-family: sans-serif;
+    justify-items: left;
+}
+
+.projetos article {
+    margin-top: 20px;
+}
+
+
+/*  */
